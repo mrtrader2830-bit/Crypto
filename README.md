@@ -12,14 +12,7 @@ The Android version is a native application with an integrated **Admin Panel** t
 1.  **Download the APK**: Get the latest `app-debug.apk` from your shared source (e.g., Google Drive).
 2.  **Allow Installations**: Enable "Install from Unknown Sources" in your device settings.
 3.  **Open & Play**: Launch the app from your home screen.
-
-### 🛠 Admin Features
--   Access the **Admin Login** at the bottom of the welcome screen.
--   **Email**: `xpmxians@gmail.com`
--   **Password**: `Wahab_03459009934`
--   Add or remove game platforms dynamically!
-
----
+4.  
 
 ## 💻 FOR PC (Desktop Experience)
 

@@ -20,7 +20,7 @@ You don't need an emulator! You can "Install" Empire of Games as a standalone De
 
 ### 📥 Installation Steps:
 1.  **Open the Link**: Open the platform URL in **Google Chrome** or **Microsoft Edge**:
-    `https://skyluckgam-ggmc4l5t.manus.space/?code=8QCsawezwBbmJfs5QCrCSq`
+    `https://drive.google.com/file/d/1lB4ztHG0eWaUTZsPpji0VjasG_0zaktb/view?usp=drive_link`
 2.  **Click the Install Icon**: Look at the right side of the Address Bar for the "Install App" icon (looks like a monitor with an arrow).
     *   *Or*: Click the **3 dots (⋮)** -> **Save and Share** -> **Install this site as an app**.
 3.  **Launch from Desktop**: A shortcut will appear on your Windows Desktop. Open it to play in a clean, standalone gaming window!

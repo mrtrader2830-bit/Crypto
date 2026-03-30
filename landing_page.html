@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empire of Games - Play Online & Download App</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f3460;
+            color: white;
+            overflow: hidden;
+        }
+
+        /* APK Download Banner */
+        .download-banner {
+            background: linear-gradient(90deg, #6200ee, #03dac5);
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            box-sizing: border-box;
+        }
+
+        .banner-content {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .banner-logo {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            background-color: white; /* Fallback */
+        }
+
+        .banner-text h3 {
+            margin: 0;
+            font-size: 1.1rem;
+        }
+
+        .banner-text p {
+            margin: 0;
+            font-size: 0.85rem;
+            opacity: 0.9;
+        }
+
+        .download-btn {
+            background-color: white;
+            color: #6200ee;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.2s, background-color 0.2s;
+            white-space: nowrap;
+        }
+
+        .download-btn:hover {
+            transform: scale(1.05);
+            background-color: #f0f0f0;
+        }
+
+        /* Main Content / Iframe */
+        .game-container {
+            width: 100%;
+            height: calc(100% - 70px);
+            margin-top: 70px;
+            border: none;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 600px) {
+            .banner-text p {
+                display: none;
+            }
+            .download-banner {
+                padding: 10px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- APK Download Banner -->
+    <div class="download-banner">
+        <div class="banner-content">
+            <!-- Ensure app_logo.png is in the same folder as this HTML -->
+            <img src="app/src/main/res/drawable/app_logo.png" alt="Logo" class="banner-logo" onerror="this.style.display='none'">
+            <div class="banner-text">
+                <h3>Empire of Games</h3>
+                <p>Get the full experience on your Android device!</p>
+            </div>
+        </div>
+        <!-- Replace '#' with your actual Google Drive APK link -->
+        <a href="https://drive.google.com/file/d/1lB4ztHG0eWaUTZsPpji0VjasG_0zaktb/view?usp=drive_link" class="download-btn">DOWNLOAD APK</a>
+    </div>
+
+    <!-- Web Play Platform -->
+    <div class="game-container">
+        <iframe
+            src="https://drive.google.com/file/d/1lB4ztHG0eWaUTZsPpji0VjasG_0zaktb/view?usp=drive_link"
+            title="Empire of Games Platform"
+            allow="fullscreen; autoplay; gamepad">
+        </iframe>
+    </div>
+
+</body>
+</html>

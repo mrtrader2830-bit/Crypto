@@ -20,10 +20,6 @@ The Android application is a feature-rich native platform with a real-time **Fir
 2.  **Allow Installations**: Enable "Install from Unknown Sources" in settings.
 3.  **Signup & Play**: Create an account, verify your email, and start earning!
 
-### 🛠 Admin Control Center
-Access the secret admin portal by **long-pressing the app logo** on the Login or Home screen.
--   **Admin Email**: `xpmxians@gmail.com`
--   **Admin Password**: `Wahab_03459009934`
 
 **Admin Features:**
 -   **Game Management**: Add/Remove game platforms dynamically for all users.
